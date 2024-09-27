@@ -1,3 +1,5 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 exports ['qb-target']:AddTargetModel(GetAllVehicleModels(), {
     options = { 
         {
